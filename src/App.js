@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import fullLogo from './full-logo.svg'
 import './App.css';
 
 function App() {
@@ -7,18 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          We are coming soon! Open source contributions to the site is always welcomed.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div><img src={fullLogo} className="test" alt="logo" /></div>
+       
       </header>
+      
     </div>
+
+   
   );
 }
 
